@@ -14,6 +14,6 @@ const rutaMain = require("./routes/mainRouter.js");
 app.use("/", rutaMain);
 
 app.listen(port, () => {
-    console.log("Servidor funcionando");
+    console.log(`Servidor funcionando en el puerto ${port}`);
 });
 
