@@ -1,0 +1,23 @@
+{
+  "name": "module-5-liveclass",
+  "version": "1.0.0",
+  "description": "Practices of live classes on module 5 (Express) of the course Full stack Digita House",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelRicardoSZ/Module-5-LiveClass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelRicardoSZ/Module-5-LiveClass/issues"
+  },
+  "homepage": "https://github.com/angelRicardoSZ/Module-5-LiveClass#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
