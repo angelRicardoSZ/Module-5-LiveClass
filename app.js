@@ -1,14 +1,19 @@
 const express = require("express");
-
-const rutaMain = require("./routes/mainRouter.js");
+const path = require("path");
 
 const app = express();
 
 const port = process.env.PORT || 3000;
 
-app.listen(port, () => {
-    console.log("Servidor funcionando")
-});
+app.use(express.static(path.join(__dirname,"public")));
+
+const rutaMain = require("./routes/mainRouter.js");
+
 
 
 app.use("/", rutaMain);
+
+app.listen(port, () => {
+    console.log("Servidor funcionando");
+});
+
