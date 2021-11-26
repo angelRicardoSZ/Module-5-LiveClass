@@ -1,10 +1,10 @@
-let express = require("express");
+const express = require("express");
 
-let mainController = require("../controllers/mainController.js");
+const mainController = require("../controllers/mainController");
 
-let router = express.Router();
+const router = express.Router();
 
 router.get("/", mainController.home);
 
-modules.exports = router;
+module.exports = router;
 
