@@ -3,7 +3,9 @@ var path = require('path');
 var app = express();
 
 var indexRouter = require('./routes/index.js');
-var usersRouter = require('./routes/users');
+
+
+
 
 
 
@@ -14,7 +16,10 @@ app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
+
+
+app.use('/detalle', indexRouter);
+
 
 
 const port = process.env.PORT || 3000;

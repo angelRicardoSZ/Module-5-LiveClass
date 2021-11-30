@@ -1,11 +1,17 @@
-const path = require("path");
- 
 /* GET home page. */
+const listaPlatos  = require("./listplatillos");
+
 const controller = {
     index:(req,res) => {
-        return res.render(path.join(__dirname,"../views/index"));
+        res.render("index",{listaPlatos})
+    },
+    detallemenu: (req,res) => {
+        const id = req.params.id
+        res.render("detalleMenu",{platillo: listaPlatos[id-1]})
     },
 };
+
+
 
 module.exports =controller;
 
