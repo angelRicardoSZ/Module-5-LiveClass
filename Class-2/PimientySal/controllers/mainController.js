@@ -3,7 +3,7 @@ const listaPlatos  = require("./listplatillos");
 
 const controller = {
     index:(req,res) => {
-        res.render("index",{listaPlatos})
+        res.render("index",{listaPlatos:listaPlatos})
     },
     detallemenu: (req,res) => {
         const id = req.params.id
