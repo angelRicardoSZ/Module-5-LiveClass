@@ -3,9 +3,9 @@
   "id": 1,
   "name": "Cafetera Moulinex Dolce Gusto Edited",
   "price": "100",
-  "discount": "50",
-  "category": "",
-  "description": "Cafetera Dolce Gusto Lumio. La cafetera Dolce Gusto Lumio es de variedad automática que ha llegado con un diseño radical al que nos tenía acostumbrados Dolce Gusto.En este post te contamos todo lo que necesitas saber sobre ella, desde sus características técnicas hasta la calidad de las cápsulas o price. sss",
+  "discount": "20",
+  "category": "visited",
+  "description": "Cafetera Dolce Gusto Lumio. La cafetera Dolce Gusto Lumio es de variedad automática que ha llegado con un diseño radical al que nos tenía acostumbrados Dolce Gusto.En este post te contamos todo lo que necesitas saber sobre ella, desde sus características técnicas hasta la calidad de las cápsulas o price.",
   "image": "img-cafetera-moulinex.jpg"
  },
  {
@@ -84,7 +84,7 @@
   "id": 10,
   "name": "Mouse Inalámbrico Logitech M280",
   "price": "1200",
-  "discount": "10",
+  "discount": "1",
   "category": "",
   "description": "Uso más cómodo para la mano derecha gracias a la forma contorneada con recubrimiento de goma blanda. Duración de las pilas hasta 18 meses, gracias al diseño para ahorrar energía.El M280 entra automáticamente en estado de suspensión cuando no se está usando. edicion1",
   "image": "img-mouse-logitech.jpg"
@@ -124,15 +124,6 @@
   "category": "",
   "description": "Disfruta de tus películas favoritas con hasta cuatro veces más detalles que Full HD, gracias a la conversión de señales 4K. Cuando se conecta a un televisor compatible,un procesador de video avanzado convierte el video estándar en una señal cercana a la resolución 4K (3840 x 2160). Con ocho millones de píxeles, obtendrás imágenes más nítidas y detalladas, y la mayor calidad de la image te permite sentarte más cerca de la pantalla para que te sientas como en el cine. Edición 1",
   "image": "img-sony-blueray.jpg"
- },
- {
-  "id": 15,
-  "name": "Bicicleta Mountain Bike Fierce Rodado 29",
-  "description": "Bicicleta Mountain Bike Fierce Rodado 29 21 velocidades. Tipo: Mountain Bike. Rodado: 29. Material Cuadro: Aluminio. Talle: 18. Suspensión: Delantera. Velocidades: 21 - Shimano. Sistema de Freno: Disco Mecánico. Llantas: Doble pared.",
-  "price": 15979,
-  "discount": 12,
-  "image": "img-bicicleta-fierce.jpg",
-  "category": "visited"
  },
  {
   "id": 16,
