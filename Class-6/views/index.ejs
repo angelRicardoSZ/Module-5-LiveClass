@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body <%= typeof color !== 'undefined' ? 'style=background-color:' + color : '' %> >
+
+    <% if(typeof errors!= "undefined"){%>
+      <ul>
+          <% for(let i=0; i<errors.length;i++) { %>
+          <li style="color: red;"> <%=errors[i].msg %>  </li>
+            <% } %>
+      </ul>
+
+    <%}%>
+  
+
+    <form action="/" method="POST">
+    <div>
+      <label>Ingresa tu nombre</label>
+      <input required type="text" name="name">
+    </div>
+      
+    <div>
+      <label>Selecciona un color</label>
+      <select name="color" id="color">
+        <option value="red">rojo</option>
+        <option value="green">verde</option>
+        <option value="blue">azul</option>
+        <option value="yellow">amarillo</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="">Ingresa un email</label>
+      <input required type="text" name="email">
+    </div>
+
+
+    <div>
+      <label for="">Ingresa una edad</label>
+      <input required type="text" name="age">
+
+    </div>
+
+    <div>
+      <label for="">Recordar color</label>
+      <input type="checkbox" name="remember_color" id="">
+    </div>
+
+
+
+
+      <button type="submit">Enviar</button>
+
+    </form>
+
+    <%if(locals.name){ %>
+        <p><%=name%></p>
+        <p><%=color%></p>
+        <p><%=email%></p>
+        <p><%=age%></p>
+    <%  
+      }
+    %>
+
+
+    
+  </body>
+</html>
